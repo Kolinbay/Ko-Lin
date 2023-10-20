@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the navigation bar */
+header {
+    background-color: #3d3b3b;
+    color: #fff;
+    height: 100px;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.logo img {
+    height: 80px;
+    width: 80px;
+}
+.dropdown{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    position: relative;
+}
+
+/* Style for the dropdown menus */
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: red
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3d3b3b;
+    min-width: 160px;
+    box-shadow: 0 4px 6px #3d3b3b;
+    z-index: 1;
+    border-radius: 3px;
+    border-color: aqua;
+    border-radius: 10px; /* Border radius */
+    padding-top: 10px;
+    
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.dropdown-content a:hover {
+    background-color: #573154;
+}
+a{
+    border-color: rgb(75, 250, 6);
+    border-radius: 10px;
+    width: 120px;
+}
+.video-container {
+    position: relative;
+    height: 100vh; /* Adjust as needed */
+    overflow: hidden;
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures video covers entire container */
+}
+/* contact for video */
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+.menu{
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    color: yellow;
+}
