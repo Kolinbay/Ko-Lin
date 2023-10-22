@@ -3,6 +3,8 @@
 body, ul {
     margin: 0;
     padding: 0;
+     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Style for the navigation bar */
