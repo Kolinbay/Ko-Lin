@@ -7,6 +7,8 @@ body{
     height: 770px;
     background-color: #FFB6C1;
     border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
 }
 #coordinator{
     width: 100px;
@@ -36,6 +38,65 @@ body{
     margin-left: 560px;
     margin-right: 560px;
     padding: 0;
+}
+
+
+.table1{
+    width: 1200px;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+#district_level{
+    padding-left: 38px;
+    padding-right: 38px;
+}
+#bratchName{
+    border: dashed yellow 2px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+body{
+    font-family: 'Roboto Slab', serif;
+}
+#div1{
+    width: 1275px;
+    height: 770px;
+    background-color: #FFB6C1;
+    border-radius: 20px;
+}
+#coordinator{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0px;
+    border-radius: 10px;
+    border-spacing: 0;
+}
+#ardwn{
+    width: 20px;
+    height: 40px;
+}
+#ardwn{
+    width: 20px;
+    height: 20px;
+}
+#arowdowns{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#horizon{
+    width: 1080px;
+    height: 20px;
+    margin-top: 10px;
+}
+#position{
+    border: dashed black 2px;
+    width: 140px;
+    margin-left: 560px;
+    margin-right: 560px;
+    padding: 0;
+    border-radius: 20px;
 }
 
 
