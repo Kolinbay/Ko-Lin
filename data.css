@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,500;1,100&family=Lato:ital,wght@0,100;1,300&family=Poppins:wght@100;400&display=swap');
+
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+#title{
+    font-style: normal;
+    font-size: 150%;
+    line-height: 4px;
+    text-align: center; /* Center the text */
+    padding: 10px; /* Add padding for better spacing */
+    font-size: 18px; /* Adjust font size for smaller screens */
+    margin: 0; /* Remove default margin */
+}
+hr{
+    margin-right: 50px;
+    height: 3px;
+    border-width: 0px;
+    background-color: rgb(5, 54, 5);
+}
